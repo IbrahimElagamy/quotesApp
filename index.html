@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main class="">
+        <div class="bg-dark bg-opacity-25 vh-100 d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row px-2 ">
+                    <div
+                        class=" col-md-10 mx-auto d-flex justify-content-center align-items-center shadow flex-column rounded-4 bg-light bg-opacity-75 p-xl-4 p-lg-3 p-md-2 position-relative">
+                        <div id="image"
+                            class="image shadow bg-black rounded-circle position-absolute top-0 translate-middle-y">
+                            <img class='w-100 rounded-circle' src='imgs/Mahatma.jpg'>
+                        </div>
+                        <a id="btn" onclick="getQuote()"
+                            class="btn btn-light text-muted shadow fw-bolder px-4 py-2 position-absolute bottom-0 "
+                            href="#"> New
+                            Quote </a>
+                        <i class="fa fa-quote-left text-dark opacity-50 me-auto fs-1 mt-5"></i>
+                        <h1 id="quote" class="text-center text-dark"> “Be the change that you wish to see in the world.”
+                        </h1>
+                        <i class="fa fa-quote-right text-dark opacity-50 ms-auto fs-1"></i>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <i class="fa fa-pen-nib fs-5 mb-5 mb-xl-3 opacity-75 me-2"></i>
+                            <h2 id="quote-writer" class="mb-4 text-muted text-dark mb-5 mb-lg-3 fw-bolder "> Mahatma
+                                Gandhi </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
